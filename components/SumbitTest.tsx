@@ -16,7 +16,7 @@ export default function SubmitTest() {
   const [loading, setLoading] = useState(false);
   const [values, setValues] = useState({
     UserID: 0,
-    TestID: 0,
+    TestID: 1,
     QuestionID: [1, 2, 3],
     Question: "[1,2,3]",
     Answers: [
@@ -41,8 +41,8 @@ export default function SubmitTest() {
       }
     } else if (event.target.name === "Answers") {
       try {
-        var realval = JSON.parse(val);
-        setValues({ ...values, Ans: val, Answers: realval });
+        var realval2 = JSON.parse(val);
+        setValues({ ...values, Ans: val, Answers: realval2 });
       } catch (e) {
         console.log(e);
       }
