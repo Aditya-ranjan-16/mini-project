@@ -45,10 +45,10 @@ export default function Signup() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px" }}>
+        <Card sx={{ height: "310px" }}>
           <CardContent
             sx={{
-              height: "120px",
+              height: "210px",
             }}
           >
             <Typography
@@ -106,7 +106,7 @@ export default function Signup() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px", overflowY: "scroll" }}>
+        <Card sx={{ height: "310px", overflow: "scroll" }}>
           <CardContent>
             <Typography
               sx={{ fontSize: 14 }}

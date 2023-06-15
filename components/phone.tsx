@@ -50,10 +50,10 @@ export default function Phone() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px" }}>
+        <Card sx={{ height: "260px" }}>
           <CardContent
             sx={{
-              height: "120px",
+              height: "175px",
             }}
           >
             <Typography
@@ -106,7 +106,7 @@ export default function Phone() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px", overflow: "scroll" }}>
+        <Card sx={{ height: "260px", overflow: "scroll" }}>
           <CardContent>
             <Typography
               sx={{ fontSize: 14 }}

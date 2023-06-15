@@ -44,10 +44,10 @@ export default function Login() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px" }}>
+        <Card sx={{ height: "240px" }}>
           <CardContent
             sx={{
-              height: "120px",
+              height: "150px",
             }}
           >
             <Typography
@@ -97,7 +97,7 @@ export default function Login() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px", overflow: "scroll" }}>
+        <Card sx={{ height: "240px", overflow: "scroll" }}>
           <CardContent>
             <Typography
               sx={{ fontSize: 14 }}

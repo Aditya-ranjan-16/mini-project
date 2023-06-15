@@ -89,10 +89,10 @@ export default function SubmitTest() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "260px" }}>
+        <Card sx={{ height: "450px" }}>
           <CardContent
             sx={{
-              height: "120px",
+              height: "350px",
             }}
           >
             <Typography
@@ -170,7 +170,7 @@ export default function SubmitTest() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "260px", overflow: "scroll" }}>
+        <Card sx={{ height: "450px", overflow: "scroll" }}>
           <CardContent>
             <Typography
               sx={{ fontSize: 14 }}

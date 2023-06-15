@@ -65,7 +65,7 @@ export default function Welcome() {
         md={6}
         xl={6}
       >
-        <Card sx={{ height: "210px" }}>
+        <Card sx={{ height: "210px", overflow: "scroll" }}>
           <CardContent>
             <Typography
               sx={{ fontSize: 14 }}
