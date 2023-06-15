@@ -24,7 +24,7 @@ export default function Home() {
           Api Endpoint :
           <span style={{ backgroundColor: " #98AFC7" }}>
             {" "}
-            https://mini-project-one-rouge.vercel.app/
+            https://mini-project-one-rouge.vercel.app/api/
           </span>
         </h2>
         This api is made using Next js 13.4.0 and Typescript , I have used
@@ -34,6 +34,8 @@ export default function Home() {
         prepare a interactive doc of the api.
         <br />
         Hope you like it.!!
+        <br />
+        GitHub Repo : https://github.com/Aditya-ranjan-16/mini-project
       </div>
       <h2>1. [GET] /api/welcome</h2>
       <Welcome />
